@@ -1,11 +1,11 @@
 matriz = [
     [9, 8, 7],
     [3, 4, 5],
-    [1, 6, 2]
+    [1, 6, 2],
 ]
 
 
-valor_buscado = 6
+valor_buscado = 5
 
 
 

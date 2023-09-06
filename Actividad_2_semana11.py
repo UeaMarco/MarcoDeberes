@@ -6,7 +6,7 @@ Arreglo= [
 
 
 def quicksort(arr):
-    if len(arr) <= 1:
+    if len(arr) <= 3:
         return arr
     else:
         pivot = arr[0]
@@ -19,7 +19,7 @@ def ordenar_fila_con_quicksort(Arreglo, fila):
     Arreglo[fila] = quicksort(Arreglo[fila])
 
 
-fila_a_ordenar = 2
+fila_a_ordenar = 1
 ordenar_fila_con_quicksort(Arreglo, fila_a_ordenar)
 for fila in Arreglo:
     print(fila)
