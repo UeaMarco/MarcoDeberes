@@ -146,4 +146,4 @@ for ciudad in range(num_ciudades):
 
 for i, promedios_semana in enumerate(promedios_por_ciudad, start=1):
     for j, promedio in enumerate(promedios_semana, start=1):
-        print(f"Promedio de temperatura para Ciudad {i}, Semana {j}: {promedio:.2f} grados")
+        print(f"temperatura  Ciudad {i}, Semana {j}: {promedio:.2f} grados")
