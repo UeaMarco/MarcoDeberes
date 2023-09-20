@@ -147,6 +147,6 @@ promedios_semanales = calcular_temperatura_promedio_semanal(temperaturas)
 
 # Imprimimos los promedios por ciudad y semana
 for i, ciudad in enumerate(promedios_semanales):
-    print(f"temperatura ciudad {i + 1}:")
+    print(f"Promedios de temperaturas para la ciudad {i + 1}:")
     for j, promedio in enumerate(ciudad):
         print(f"Semana {j + 1}: {promedio:.2f}°C")
