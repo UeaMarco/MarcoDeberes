@@ -1,14 +1,13 @@
-
 temperaturas = [
     [   # Ciudad 1
-        [   # Seman 1
-            {"day": "Lunes", "temp": 67},
-            {"day": "Martes", "temp": 90},
-            {"day": "Miércoles", "temp": 92},
-            {"day": "Jueves", "temp": 99},
-            {"day": "Viernes", "temp": 95},
-            {"day": "Sábado", "temp": 78},
-            {"day": "Domingo", "temp": 82}
+        [   # Semana 1
+            {"day": "Lunes", "temp": 78},
+            {"day": "Martes", "temp": 80},
+            {"day": "Miércoles", "temp": 82},
+            {"day": "Jueves", "temp": 79},
+            {"day": "Viernes", "temp": 85},
+            {"day": "Sábado", "temp": 88},
+            {"day": "Domingo", "temp": 92}
         ],
         [   # Semana 2
             {"day": "Lunes", "temp": 76},
@@ -105,45 +104,49 @@ temperaturas = [
             {"day": "Domingo", "temp": 83}
         ],
         [   # Semana 4
-            {"day": "Lunes", "temp": 8},
-            {"day": "Martes", "temp": 9},
-            {"day": "Miércoles", "temp": 9},
-            {"day": "Jueves", "temp": 8},
-            {"day": "Viernes", "temp": 8},
-            {"day": "Sábado", "temp": 8},
-            {"day": "Domingo", "temp": 8}
+            {"day": "Lunes", "temp": 88},
+            {"day": "Martes", "temp": 90},
+            {"day": "Miércoles", "temp": 92},
+            {"day": "Jueves", "temp": 89},
+            {"day": "Viernes", "temp": 86},
+            {"day": "Sábado", "temp": 83},
+            {"day": "Domingo", "temp": 80}
         ]
     ]
 ]
+def calcular_temperatura_promedio(temperaturas):
+    suma_temperaturas = 0
+    total_dias = 0
 
-num_ciudades = len(temperaturas)
+    for ciudad in temperaturas:
+        for semana in ciudad:
+            for dia in semana:
+                suma_temperaturas += dia["temp"]
+                total_dias += 1
 
-
-promedios_por_ciudad = []
-
-
-for ciudad in range(num_ciudades):
-
-    promedios_semana = []
-
-
-    for semana in temperaturas[ciudad]:
-        total_temp_semana = 0
-        num_dias_semana = 0
+    temperatura_promedio = suma_temperaturas / total_dias
+    return temperatura_promedio
 
 
-        for dia in semana:
-            total_temp_semana += dia["temp"]
-            num_dias_semana += 1
 
+def calcular_temperatura_promedio_semanal(temperaturas):
+    promedios_semanales = []
 
-        promedio_temp_semana = total_temp_semana / num_dias_semana
-        promedios_semana.append(promedio_temp_semana)
+    for ciudad in temperaturas:
+        promedios_ciudad = []
+        for semana in ciudad:
+            suma_temperaturas = sum(dia["temp"] for dia in semana)
+            promedio_semana = suma_temperaturas / len(semana)
+            promedios_ciudad.append(promedio_semana)
+        promedios_semanales.append(promedios_ciudad)
 
+    return promedios_semanales
 
-    promedios_por_ciudad.append(promedios_semana)
+# Llamamos a la función para calcular los promedios por semana
+promedios_semanales = calcular_temperatura_promedio_semanal(temperaturas)
 
-
-for i, promedios_semana in enumerate(promedios_por_ciudad, start=1):
-    for j, promedio in enumerate(promedios_semana, start=1):
-        print(f"temperatura  Ciudad {i}, Semana {j}: {promedio:.2f} grados")
+# Imprimimos los promedios por ciudad y semana
+for i, ciudad in enumerate(promedios_semanales):
+    print(f"temperatura ciudad {i + 1}:")
+    for j, promedio in enumerate(ciudad):
+        print(f"Semana {j + 1}: {promedio:.2f}°C")
