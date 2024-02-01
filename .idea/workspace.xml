@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e77e3c-a170-4a2d-89d1-f045b109466e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MarcoDeberes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarcoDeberes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SEMANA 6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/S1/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividad 1_semana11.py" beforeDir="false" afterPath="$PROJECT_DIR$/S1/Actividad 1_semana11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividad_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/S1/Actividad_14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividad_2_semana11.py" beforeDir="false" afterPath="$PROJECT_DIR$/S1/Actividad_2_semana11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desarrollo_de_aprendizaje.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diccionario_sem_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/S1/Diccionario_sem_15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Promedio_Tem semana 126.py" beforeDir="false" afterPath="$PROJECT_DIR$/S1/Promedio_Tem semana 126.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Promedio_Tem semana 1262.py" beforeDir="false" afterPath="$PROJECT_DIR$/S1/Promedio_Tem semana 1262.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Promedio_temperaturas_semana13.py" beforeDir="false" afterPath="$PROJECT_DIR$/S1/Promedio_temperaturas_semana13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reconociinetro facial" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEMANA_5_DEBER.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unidad 2/1.2. Clases, Objetos, Herencias, Encapsulamiento y Polimorfismo/SEMANA_5_DEBER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEMANA_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unidad 2/2.1. Constructores y Destructores/SEMANA_6.py" afterDir="false" />
-    </list>
+    <list default="true" id="68e77e3c-a170-4a2d-89d1-f045b109466e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,21 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2bkExOWRTpThcVmf1sPsfPH0dKI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USUARIO\PycharmProjects\MarcoDeberes\Unidad 2\1.2. Clases, Objetos, Herencias, Encapsulamiento y Polimorfismo" />
@@ -70,6 +51,27 @@
       <option name="presentableId" value="Default" />
       <updated>1706750922057</updated>
     </task>
+    <task id="LOCAL-00001" summary="Deberes">
+      <option name="closed" value="true" />
+      <created>1706752725113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706752725113</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Deberes">
+      <option name="closed" value="true" />
+      <created>1706752789378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706752789378</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deberes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deberes" />
   </component>
 </project>
