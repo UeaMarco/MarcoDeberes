@@ -20,6 +20,7 @@ def mostrar_menu():
 
     opciones = {
         '1': 'Unidad 1/1.2. Tecnicas de Programacion/1.2-1. Ejemplo Tecnicas de Programacion.py',
+        '1': 'Unidad 1/2.1. Programación Tradicional/1.2-1. Ejemplo Programación Tradicional.py',
         # Agrega aquí el resto de las rutas de los scripts
     }
 
